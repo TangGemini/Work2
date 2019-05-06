@@ -1,0 +1,106 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	background-color: transparent;
+	color: #900000;
+}
+body{	
+	background-image: url(../images/loginImage.png);
+}
+.container{
+	border: 1px solid #ddd;
+	border-radius: 15px;
+	width: 500px;
+	padding-top: 30px;
+	position: absolute;
+	top: 100px;
+	right: 100px;
+	text-shadow: none;
+	background: white;
+}
+.header{
+	text-align: center;
+	padding: 10px 0;
+}
+.header h1{
+	color:#37363e;
+	font-size: 22px;
+	font-family: "Montserrat",sans-serif;
+	font-weight: bold;
+}
+.form_area{
+	padding: 40px 40px 10px 40px;
+	height: auto;
+}
+.group_area{
+	width: 400px;
+	margin:0 auto 20px;
+}
+.form_msg{
+	width: 400px;
+	padding-left: 10px;
+	display: block;
+	border: 1px solid #BDC4C9;
+	font-size: 14px;
+	background: #fff;
+	height: 40px;
+	line-height: 40px;
+	color: #555;
+	border-radius: 5px;
+
+}
+#submit{
+	width: 400px;
+	height: 42px;
+	font-weight: 600;
+	background: #66B3FF;
+	margin:0 auto;
+	display: block;
+	border:none;
+	color: #fff;
+	border-radius: 5px;
+}
+#submit:hover{
+	border-color: #adadad;
+}
+.footer{
+	color: #76757B;
+	padding: 10px 5px;
+	margin:10px auto 30px;
+	text-align: center;
+}
+.btnAll{
+	width: 400px;
+	margin:0 auto;
+}
+.btnItem{
+	width: 120px;
+          display: inline-block;
+          margin-top: 15px;
+	padding-bottom: 10px;
+	margin-right: 20px;
+}
+.btnItem a{
+	text-decoration: none;
+	font-size:14px;
+	letter-spacing: 10px;
+	background: #e4e4e4;
+	border-radius: 3px;
+	padding: 7px 10px;
+	color: #76757B;
+}
+.btnItem a:hover{
+	color: #666;
+}
+.remind{
+	text-align: center;
+	color: #900000;
+	height: 8px;
+}
+.isManager{
+    display: none;
+}
